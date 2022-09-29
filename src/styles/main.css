@@ -1,0 +1,31 @@
+.form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form form div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#submitButton {
+    width: 120px;
+}
+
+.requests ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.singleRequest,
+.completion {
+    padding: 15px;
+    border: 1px solid black;
+    max-width: 360px;
+}
+
+.completion {
+    background-color: salmon;
+}
